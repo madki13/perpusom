@@ -82,3 +82,40 @@ a.desc:after {
 .nav > li > form > button.logout:focus {
     outline: none;
 }
+
+.form-group.has-error > .help-block, .form-group.has-error > .control-label{
+    color: #dc3545;
+}
+.form-group.has-error > .form-control{
+    border-color: #dc3545;
+}
+
+.form-group.has-success > .help-block, .form-group.has-success > .control-label{
+    color: #28a745;
+}
+.form-group.has-success > .form-control{
+    border-color: #28a745;
+}
+
+.section .section-header h1{
+    font-size: 20px;
+}
+.form-control.rating-input{
+    display:none;
+}
+.action-column{
+    min-width: 100px;
+    display: table
+}
+
+.input-group-text,
+select.form-control:not([size]):not([multiple]),
+.form-control:not(.form-control-sm):not(.form-control-lg) {
+    font-size: 14px;
+    padding: 10px 15px;
+    height: auto;
+}
+
+.navbar{
+    z-index: 2 !important;
+}
