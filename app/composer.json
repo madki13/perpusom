@@ -55,7 +55,10 @@
         "codeception/module-asserts": "^1.0.0"
     },
     "config": {
-        "process-timeout": 1800
+        "process-timeout": 1800,
+        "allow-plugins": {
+            "yiisoft/yii2-composer": true
+        }
     },
     "scripts": {
         "post-install-cmd": [
